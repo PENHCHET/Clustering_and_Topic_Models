@@ -1,0 +1,12 @@
+total number in arff file s84678
+number of query 25
+number of unique document in all qrel 1795
+iteration: 1610115
+total: 1610115
+true pos + true neg = correct: 1410085
+false pos + false negs: 200030
+
+correct/total: 0.8757666377867419
+          	same cluster 	 diff clusters
+same query	64751			107758
+diff query	92272			1345334
