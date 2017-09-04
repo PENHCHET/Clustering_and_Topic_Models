@@ -28,13 +28,22 @@ The accuracy after topic generation with Mallet is about 70%, fairly low.
 
 ### Evaluation, Result
 
-There are about 1831 relevant documents in total. Consider all the pairs of two relevant documents, that is (1831 choose 2). For each pair, count a 1 in the appropriate cell of the following **confusion table**:
+There are about 1795 relevant documents in total. Consider all the pairs of two relevant documents, that is (1831 choose 2). For each pair, count a 1 in the appropriate cell of the following **confusion table**:
 
 
 |ConfusionMatrix        |same cluster |different clusters|
 |-----------------------|:-----------:|-----------------:|
-|same query|
-|different queries|
+|same query|64751|107758|
+|different queries|92272|1345334|
 
 
 Accuracy  = (same query same cluster  + diff query diff cluster ) / (same query same cluster  + diff query diff cluster + same query diff cluster + diff query same cluster)
+
+number of query 25
+number of unique document in all qrel 1795
+iteration: 1610115
+total: 1610115
+true pos + true neg = correct: 1410085
+false pos + false negs: 200030
+
+correct/total: 0.8757666377867419
