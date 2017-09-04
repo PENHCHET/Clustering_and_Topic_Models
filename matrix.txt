@@ -1,0 +1,10 @@
+number of query 25
+number of unique document 1795
+total number: 1610115
+true pos + true neg = correct: 1035613
+false pos + false negs: 574502
+
+correct/total: 0.6431919459169065
+          	same cluster 	 diff clusters
+same query	74504			98005
+diff query	476497			961109
